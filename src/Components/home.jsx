@@ -5,15 +5,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import { Zoom } from "react-slideshow-image";
 import React, { useEffect, useState } from "react";
-import image1 from "../Assests/Images/1.jpeg";
-import image2 from "../Assests/Images/2.jpeg";
-import image3 from "../Assests/Images/3.jpeg";
-import image4 from "../Assests/Images/4.jpeg";
+import image1 from "../Assests/Images/image1.bmp";
+import image2 from "../Assests/Images/image2.bmp";
 import list from "./userFlyerList";
 import imageListLoading from "./imageListLoading";
 import LazyLoad from "react-lazyload";
 
-const images = [image1, image2, image3, image4];
+const images = [image1, image2];
 
 const useStyles = makeStyles((theme) => ({
   paper: {
